@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  <h1>Schedule SMS notification</h1>
+  <form name="form1" method="POST" action="/form">
+    <table>
+      <tr>
+        <td>Date</td>
+        <td><input type="date" name="date" ></td>
+      </tr>
+      <tr>
+        <td>Message</td>
+        <td><input type="text" name="message" ></td>
+      </tr>
+      <tr>
+        <td>Number</td>
+        <td><input type="text" name="number" ></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="submit" value="Schedule" ></td>
+      </tr>
+    </table>
+  </form>
+  </body>
+</html>
